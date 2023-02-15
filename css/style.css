@@ -1,0 +1,344 @@
+  body {
+    font:15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #4191cc;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+  .jumbotron {
+    background-color: #4191cc;
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+  }
+  .container-fluid {
+    /*padding: 60px 50px;*/
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo-small {
+    color: #4191cc;
+  }
+
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+.carousel-inner{
+	margin-top: 54px;	
+  }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #4191cc;
+  }
+  .carousel-indicators li {
+    border-color: #4191cc;
+  }
+  .carousel-indicators li.active {
+    background-color: #4191cc;
+  }
+  .item p img{
+	width: 80px;
+	height: 80px;
+	border:2px solid #4191cc;
+  }  
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .item span {
+    font-style: normal;
+  }
+  .panel {
+    border: 1px solid #4191cc; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid #4191cc;
+    background-color: #fff !important;
+    color: #4191cc;
+  }
+  .panel-heading {
+    color: #fff !important;
+    background-color: #4191cc !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+    background-color: white !important;
+  }
+  .panel-footer h3 {
+    font-size: 32px;
+  }
+  .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+  .panel-footer .btn {
+    margin: 15px 0;
+    background-color: #4191cc;
+    color: #fff;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-color: #4191cc;
+    z-index: 9999;
+    border: 0;
+	height:45px;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+	font-weight: bolder;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #4191cc !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    color: #fff !important;
+  }
+  .icon-bar {
+    background-color:#fff !important;
+  }
+  footer .fa {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+.carousel-indicators {
+  /*bottom: 70px;*/
+}
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
+  #services .logo-small{
+	font-size:50px;
+  }
+  #about .logo{
+	font-size:200px;
+    color: #4191cc;
+  }
+/*css team*/
+.panel-body{
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	  max-width: 300px;
+	  margin: auto;
+	  text-align: center;
+	  font-family: arial;
+}
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border-radius:4px;
+  border:0px;
+  outline: 0;
+  display: inline-block;
+  color: white;
+  background-color:#4191cc;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.panel-body div a {
+  text-decoration: none;
+  font-size: 28px;
+  color:#4191cc;
+}
+
+button:hover, a:hover {
+	color:;
+  text-decoration:none;
+}
+/*css team*/
+/*css blog*/
+.blog-section{
+	padding-top: 30px;
+}
+
+.blog_item {
+  margin-bottom: 50px;
+}
+
+a .btn{
+	background-color:#4191cc;
+	color:#FFF;
+} 
+
+.single-sidebar {
+	margin-top: 60px;
+}
+div .single-sidebar > ul{
+	list-style:none;
+	padding: 10px;
+}
+div .single-sidebar > ul >li:hover{
+	border-bottom:1px solid #4191cc;
+}
+.list-socaiux li{
+	float: left;
+}
+.list-socaiux li a .fa{
+	font-size: 30px;
+	color: #4191cc;
+	background-color: #DDD;
+	border-radius: 50%;
+	padding: 9px;
+	margin:5px;
+	width: 50px;
+}
+
+.single-sidebar  h3{
+	background-color: #4191cc;
+	color: #FFF;
+	font-size: 18px;
+	padding: 12px 5px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.blog{
+	background-color: #4191cc;
+	color: #FFF;
+}
+.blog ul{
+	list-style: none;
+	padding: 10px;
+}
+.blog a{
+	color: #FFF;
+}
+.link{
+	color:#4191cc;
+}
+.link:hover{
+	color:#4191cc;
+	text-decoration:none;
+}
+/*css blog*/
+.form button{
+	margin:5px;
+}
+.login{
+	color:#FFF;
+	width:300px;
+	margin:30px auto 30px;
+	padding:11px;
+	background-color:#4191cc;
+	border-radius:4px;
+}
+#Login p{
+	text-align:center;
+}
+#Login p a{
+	color:#4191cc;
+}
+#Login p a:hover{
+	text-decoration:none;
+}
+.reseaux{
+	padding:10px;
+}
+.reseaux a{
+	margin:5px;
+	font-size:20px;
+}
+.navbar-nav{
+	background-color: #4191cc;
+}
+/*CSS Footer*/
+footer p a{
+	color:#4191cc;
+}
+footer p a:hover{
+	color:#FFF;
+}
+div.col-lg-9 ul{
+	list-style: none;
+	display: block ruby;
+}
+div.col-lg-9 ul li{
+	background-color:#4191cc;
+	border: 1px solid #4191cc;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+}
+div.col-lg-9 ul li a{
+	color:#FFF;
+}
+/*CSS Footer*/
